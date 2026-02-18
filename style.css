@@ -253,4 +253,99 @@ form {
     font-size: 1.2rem;
     padding: .5rem .6rem;
 border-radius: 50%;
+
+}
+
+/* =======================
+   EXTRA MOBILE FIXES
+=======================*/
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .para {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .image-container {
+        width: 16rem;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .about-me {
+        width: 18rem;
+        height: 18rem;
+        margin: auto;
+    }
+
+    .mycard,
+    .blog-card {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+}
+
+
+/* =======================
+   TABLET FIXES
+=======================*/
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .image-container {
+        width: 22rem;
+        margin: auto;
+    }
+
+    .about-me {
+        width: 22rem;
+        height: 22rem;
+        margin: auto;
+    }
+
+    .mycard,
+    .blog-card {
+        width: 100%;
+    }
+
+    .hero-section {
+        text-align: center;
+    }
+
+}
+
+
+/* =======================
+   LARGE SCREEN FIX
+=======================*/
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
 }
